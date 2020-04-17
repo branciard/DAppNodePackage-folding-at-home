@@ -69,7 +69,7 @@ fi
 
 mkdir -p /home/fah/data
 
-FAHClient --data-directory=/home/fah/data --pause-on-start=$PAUSE_ON_START \
+FAHClient --chdir=/home/fah/data --pause-on-start=$PAUSE_ON_START \
             --allow=$ALLOW --command-allow-no-pass=$COMMAND_ALLOW_NO_PASS \
             --user=$USER --passkey=$PASSKEY --team=$TEAM \
             --cause=$CAUSE --cpus=$CPUS --cpu-usage=$CPU_USAGE \

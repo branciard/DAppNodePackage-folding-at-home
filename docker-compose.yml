@@ -6,14 +6,14 @@ services:
       - '36330:36330'
     volumes:
       - 'data:/home/fah/data'
-    image: 'folding-at-home.public.dappnode.eth:1.0.0'
+    image: 'folding-at-home.public.dappnode.eth:1.1.1'
     environment:
       - PAUSE_ON_START=false
       - ADDITIONAL_OPTIONS=
       - TEAM=238061
       - USER=Anonymous
       - PASSKEY=1385yourpasskeyhere5924
-      - CAUSE=ANY
+      - CAUSE=COVID-19
       - CPUS=-1
       - CPU_USAGE=100
       - GPU=false
